@@ -107,3 +107,35 @@ The system is divided into three layers:
 ---
 
 ## 8. Folder Structure
+
+```bash
+
+EmployeeManagementSystem/
+├── data/
+│   ├── employees.csv
+│   ├── attendance.csv
+│   ├── leaves.csv
+│   └── departments.csv
+├── models/
+│   ├── Employee/
+│   ├── AttendanceRecord/
+│   ├── LeaveRequest/
+│   └── Department/
+├── structures/
+│   ├── LinkedList/
+│   ├── Queue/
+│   └── Stack/  # optional
+├── algorithms/
+│   ├── Searching/
+│   └── Sorting/
+├── services/
+│   ├── EmployeeService/
+│   ├── AttendanceService/
+│   ├── LeaveService/
+│   └── ReportService/
+├── utils/
+│   ├── CSVReader/
+│   └── CSVWriter/
+└── main/
+    └── MainMenu/
+```
